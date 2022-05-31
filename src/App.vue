@@ -5,18 +5,16 @@
     <div class="row justify-center">
       <div class="col flex flex-col items-center">
         <span class="mb-8 text-h2 font-bold">三大平台，我來搞定</span>
-        <ul class="max-w-[250px]">
+        <ul class="lg:grid lg:grid-cols-3 lg:gap-28">
           <li v-for="platform in platforms" :key="platform.alt" class="flex flex-col items-center mb-6">
             <div class="mb-4"><img :src="platform.icon" :alt="platform.alt"></div>
             <span class="mb-4 text-h3 font-bold">{{ platform.name }}</span>
-            <ul class="text-grey-300 text-center">
+            <ul class="lg:flex lg:flex-col lg:items-center text-grey-300 text-center">
               <li v-for="(content, index) in platform.content" :key="platform.alt">{{ content }}</li>
             </ul>
           </li>
         </ul>
       </div>
-    </div>
-    <div>
     </div>
   </section>
 </template>
