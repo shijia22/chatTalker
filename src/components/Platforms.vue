@@ -2,7 +2,7 @@
   <section class="container mt-20 relative z-10">
     <div class="row justify-center">
       <div class="col flex flex-col items-center">
-        <span class="mb-8 lg:mb-12 text-h2 font-bold">三大平台，我來搞定</span>
+        <span class="mb-8 lg:mb-12 text-h2 lg:text-h1 font-bold">三大平台，我來搞定</span>
         <ul class="lg:grid lg:grid-cols-3 lg:gap-32">
           <li v-for="platform in platforms" :key="platform.alt" class="flex flex-col items-center mb-6">
             <div class="mb-4 lg:mb-6 w-[60px] lg:w-auto"><img :src="platform.icon" :alt="platform.alt"></div>
