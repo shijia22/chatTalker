@@ -39,6 +39,9 @@ module.exports = {
         content: '1.5rem',
         button: "0.875rem",
       },
+      boxShadow: {
+        "card-mobile": "0px 2px 10px #00000014;",
+      },
     },
   },
   corePlugins: {
