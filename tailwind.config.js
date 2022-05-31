@@ -40,7 +40,7 @@ module.exports = {
         button: "0.875rem",
       },
       boxShadow: {
-        "card-mobile": "0px 2px 10px #00000014;",
+        "card": "0px 2px 10px #00000014;",
       },
     },
   },

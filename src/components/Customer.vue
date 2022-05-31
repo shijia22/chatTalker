@@ -8,7 +8,7 @@
           </p>
         </div>
         <ul class="lg:grid lg:grid-cols-4 lg:gap-4">
-          <li v-for="person in people" :key="person.name" class="mb-6 overflow-hidden rounded-xl shadow-card-mobile">
+          <li v-for="person in people" :key="person.name" class="mb-6 overflow-hidden rounded-xl shadow-card">
             <div class=""><img :src="person.icon" :alt="person.alt"></div>
             <div class="flex flex-col items-center py-4 px-6 min-h-[128px]">
               <span class="mb-4 font-bold text-neutral leading-6">{{ person.name }}</span>
