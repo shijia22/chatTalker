@@ -4,7 +4,7 @@
       <div class="row justify-center">
         <div class="col lg:flex lg:flex-row-reverse lg:items-center">
           <div class="flex flex-col items-center lg:items-start">
-            <span class="mb-4 text-h2 lg:text-h1 leading-h2 font-bold">快速了解客戶輪廓<p>建立品牌流量池</p></span>
+            <span class="mb-4 text-h2 lg:text-h1 leading-h2 font-bold text-center lg:text-left">快速了解客戶輪廓<p>建立品牌流量池</p></span>
             <span class="mb-4 md:mb-6 text-h3 lg:text-[1.25rem] leading-[1.625rem] text-center lg:text-left">
               <p>深入用戶日常，成為用戶貼身好友</p>
               <p>精準傳遞品牌資訊，打造個人化專屬服務</p>
