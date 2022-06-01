@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-[60px]">
+  <section class="container mt-[60px]">
     <div class="row md:justify-center">
       <div class="col flex flex-col items-center">
         <div class="flex flex-col items-center">
@@ -20,7 +20,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
