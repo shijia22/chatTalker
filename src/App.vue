@@ -7,6 +7,9 @@
   <Witness />
   <Cta />
   <Footer />
+  <div class="fixed bottom-6 right-6 w-[50px] flex justify-center bg-neutral rounded-full">
+    <button type="button" class="top">TOP</button>
+  </div>
 </template>
 
 <script setup>
