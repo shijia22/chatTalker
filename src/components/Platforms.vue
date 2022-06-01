@@ -6,7 +6,7 @@
         <ul class="lg:grid lg:grid-cols-3 lg:gap-32">
           <li v-for="platform in platforms" :key="platform.alt" class="flex flex-col items-center mb-6">
             <div class="mb-4 lg:mb-6 w-[60px] lg:w-auto"><img :src="platform.icon" :alt="platform.alt"></div>
-            <span class="mb-4 lg:mb-6 text-h3 lg:text-[1.5rem] font-bold">{{ platform.name }}</span>
+            <span class="mb-4 lg:mb-6 text-center text-h3 lg:text-[1.5rem] font-bold">{{ platform.name }}</span>
             <ul class="lg:flex lg:flex-col lg:items-center text-grey-300 text-center">
               <li v-for="(content, index) in platform.content" :key="platform.alt">{{ content }}</li>
             </ul>
