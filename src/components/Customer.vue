@@ -1,26 +1,30 @@
 <template>
-  <section class="container mt-[60px]">
-    <div class="row md:justify-center">
-      <div class="col flex flex-col items-center">
-        <div class="flex flex-col items-center">
-          <span class="mb-4 text-h2 lg:text-h1 leading-h2 font-bold">任何的角色，我都能給</span>
-          <p class="mb-8 md:mb-12 text-h3 lg:text-[1.25rem] leading-[1.625rem] text-center">量身打造您想要的專屬服務，幫助您迅速判斷成效、並加快決策
-          </p>
+  <div class="bg-[url('/svg/ball02.svg')]	bg-no-repeat ball02">
+    <section class="container mt-[60px]">
+      <div class="row md:justify-center">
+        <div class="col flex flex-col items-center">
+          <div class="flex flex-col items-center">
+            <span class="mb-4 text-h2 lg:text-h1 leading-h2 font-bold">任何的角色，我都能給</span>
+            <p class="mb-8 md:mb-12 text-h3 lg:text-[1.25rem] leading-[1.625rem] text-center">
+              量身打造您想要的專屬服務，幫助您迅速判斷成效、並加快決策
+            </p>
+          </div>
+          <ul class="lg:grid lg:grid-cols-4 lg:gap-4">
+            <li v-for="person in people" :key="person.name"
+              class="mb-6 overflow-hidden rounded-xl shadow-card bg-grey-100">
+              <div class=""><img :src="person.icon" :alt="person.alt"></div>
+              <div class="flex flex-col items-center py-4 px-6 min-h-[128px]">
+                <span class="mb-4 font-bold text-neutral leading-6">{{ person.name }}</span>
+                <ul class="flex flex-col items-center rounded-b-2xl">
+                  <li v-for="list in person.desc" :key="list">{{ list }}</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
         </div>
-        <ul class="lg:grid lg:grid-cols-4 lg:gap-4">
-          <li v-for="person in people" :key="person.name" class="mb-6 overflow-hidden rounded-xl shadow-card">
-            <div class=""><img :src="person.icon" :alt="person.alt"></div>
-            <div class="flex flex-col items-center py-4 px-6 min-h-[128px]">
-              <span class="mb-4 font-bold text-neutral leading-6">{{ person.name }}</span>
-              <ul class="flex flex-col items-center rounded-b-2xl">
-                <li v-for="list in person.desc" :key="list">{{ list }}</li>
-              </ul>
-            </div>
-          </li>
-        </ul>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script setup>
@@ -53,3 +57,30 @@ const people = reactive([
   }
 ])
 </script>
+
+<style scoped>
+.ball02 {
+  background-size: 50%;
+  background-position: 150% 100%;
+}
+
+@media (min-width: 576px) {
+  .ball02 {
+    background-position: 150% 100%;
+    background-size: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ball02 {
+    background-position: 120% 100%;
+    background-size: 300px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .ball02 {
+    background-size: 400px;
+  }
+}
+</style>
