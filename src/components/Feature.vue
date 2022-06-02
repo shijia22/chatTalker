@@ -38,25 +38,25 @@ import { reactive } from 'vue';
 const features = reactive([
   {
     name: '無敵轉換術',
-    icon: '/svg/icon01.svg',
+    icon: './svg/icon01.svg',
     alt: '無敵轉換術',
     desc: ['精準掌握客群來源', '分析用戶轉化流程'],
   },
   {
     name: '一站式訊息中心',
-    icon: '/svg/icon02.svg',
+    icon: './svg/icon02.svg',
     alt: '一站式訊息中心',
     desc: ['整合Messenger、LINE和IG三大平台訊息'],
   },
   {
     name: '聊天機器人',
-    icon: '/svg/icon03.svg',
+    icon: './svg/icon03.svg',
     alt: '聊天機器人',
     desc: ['66款聊天機器人模組', '自由設計聊天流程'],
   },
   {
     name: '群發訊息',
-    icon: '/svg/icon04.svg',
+    icon: './svg/icon04.svg',
     alt: '群發訊息',
     desc: ['自由選定特定受眾', '精準推送群發訊息']
   }

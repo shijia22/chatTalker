@@ -33,25 +33,25 @@ import { reactive } from 'vue';
 const people = reactive([
   {
     name: '活動主',
-    icon: '/svg/ch01.svg',
+    icon: './svg/ch01.svg',
     alt: '活動主',
     desc: ['用戶數位足跡掌握在手', '精準取得客戶輪廓，提供分析'],
   },
   {
     name: '創作者',
-    icon: '/svg/ch02.svg',
+    icon: './svg/ch02.svg',
     alt: '創作者',
     desc: ['自由設計互動腳本', '輕鬆整合各項數據'],
   },
   {
     name: '企業品牌',
-    icon: '/svg/ch03.svg',
+    icon: './svg/ch03.svg',
     alt: '企業品牌',
     desc: ['多元資料整合，做出服務差異化', '幫助企業加速決策'],
   },
   {
     name: '其他',
-    icon: '/svg/ch04.svg',
+    icon: './svg/ch04.svg',
     alt: '其他',
     desc: ['創造更多可能...']
   }

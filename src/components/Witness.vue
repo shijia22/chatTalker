@@ -61,7 +61,7 @@ import { reactive } from 'vue';
 
 const comments = reactive([
   {
-    photo: '/user01.jpg',
+    photo: './user01.jpg',
     alt: 'Lina 執行長',
     title: 'Lina 執行長',
     company: '清心寡慾設計公司',
@@ -69,7 +69,7 @@ const comments = reactive([
     comment: '原來聊天機器人可以這麼有人性！團隊非常的專業，有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。'
   },
   {
-    photo: '/user02.jpg',
+    photo: './user02.jpg',
     alt: 'Zoe 活動長',
     title: 'Zoe 活動長',
     company: 'subwhat 行銷公司',
@@ -77,7 +77,7 @@ const comments = reactive([
     comment: '團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高 10000 個追蹤者，客戶體驗回饋很正面！'
   },
   {
-    photo: '/user03.jpg',
+    photo: './user03.jpg',
     alt: 'HowBig',
     title: 'HowBig',
     company: '油土伯',
@@ -88,7 +88,7 @@ const comments = reactive([
 
 const commentsMobile = reactive([
   {
-    photo: '/user01.jpg',
+    photo: './user01.jpg',
     alt: 'Lina 執行長',
     title: 'Lina 執行長',
     company: '清心寡慾設計公司',

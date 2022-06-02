@@ -25,19 +25,19 @@ import { reactive } from 'vue';
 const platforms = reactive([
   {
     name: 'Facebook Messenger',
-    icon: '/messenger.png',
+    icon: './messenger.png',
     alt: 'messenger',
     content: ['結合粉絲專頁，提高粉絲互動率', '有效經營品牌社群'],
   },
   {
     name: 'LINE 官方帳號',
-    icon: '/line.png',
+    icon: './line.png',
     alt: 'LINE',
     content: ['融入日常生活，精準傳遞品牌資訊', '打造個人化專屬服務']
   },
   {
     name: 'Instagram 商業帳號',
-    icon: '/instagram.png',
+    icon: './instagram.png',
     alt: 'instagram',
     content: ['貼近粉絲，提升品牌自然聲量', '行銷、抽獎一站完成']
   }]);
