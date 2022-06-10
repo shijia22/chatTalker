@@ -15,7 +15,7 @@
             <div class="relative top-0 z-10">
               <img src="/svg/bg_1_1.svg" alt="person" class="w-[312px] md:w-[532px]">
             </div>
-            <div class="absolute top-0 right-0 hidden md:flex">
+            <div class="absolute top-0 right-0 hidden md:flex yellow-bg">
               <img src="/svg/bg_home.svg" alt="bg" class="">
             </div>
           </div>
@@ -24,3 +24,28 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.yellow-bg {
+  height: 45%;
+}
+
+@media (min-width: 576px) {
+  .yellow-bg {
+    height: 55%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .yellow-bg {
+    height: 65%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .yellow-bg {
+    height: 70%;
+  }
+}
+
+</style>
