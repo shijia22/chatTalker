@@ -9,7 +9,7 @@
               量身打造您想要的專屬服務，幫助您迅速判斷成效、並加快決策
             </p>
           </div>
-          <ul class="lg:grid lg:grid-cols-4 lg:gap-4">
+          <ul class="md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-4">
             <li v-for="person in people" :key="person.name"
               class="mb-6 overflow-hidden rounded-xl shadow-card bg-grey-100">
               <div class=""><img :src="person.icon" :alt="person.alt"></div>

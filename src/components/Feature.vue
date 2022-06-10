@@ -13,7 +13,7 @@
             <button type="button"
               class="px-8 py-2 mb-8 rounded-[22px] bg-neutral text-grey-100 text-content">方案費用</button>
           </div>
-          <ul class="mx-[3.75rem] lg:mr-[8.625rem] lg:ml-0 lg:grid lg:grid-cols-2 lg:gap-12">
+          <ul class="mx-[3.75rem] lg:mr-[8.625rem] lg:ml-0 md:grid md:grid-cols-2 md:gap-12">
             <li v-for="feature in features" :key="feature.name"
               class="mb-6 pt-8 px-6 pb-4 overflow-hidden rounded-xl shadow-card">
               <div class="w-[85px] mb-6 p-4 rounded-full shadow-card"><img :src="feature.icon" :alt="feature.alt"
