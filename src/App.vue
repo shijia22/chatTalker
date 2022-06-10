@@ -8,7 +8,7 @@
   <Cta />
   <Footer />
   <div class="fixed bottom-6 right-6 w-[50px] flex justify-center bg-neutral rounded-full">
-    <button type="button" class="top">TOP</button>
+    <button type="button" class="my-4 mx-4 font-wendyOne text-grey-100 text-[14px] font-black">TOP</button>
   </div>
 </template>
 
